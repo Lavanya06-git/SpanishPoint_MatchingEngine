@@ -48,7 +48,7 @@ public sealed class OpenMatchingEngineTests
         });
 
         allowAllButton.Click();
-        CaptureEvidence("02-cookie-consent-accepted");
+        CaptureEvidence("02-Cookie-Consent-Accepted");
 
         var solutionsMenuToggle = wait.Until(currentDriver =>
             currentDriver.FindElement(By.CssSelector("#nav-toggle-solutions .MainNavLink_text__7N2uU")));
